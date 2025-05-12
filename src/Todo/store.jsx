@@ -1,7 +1,7 @@
 import {createStore} from 'redux';
 const initialState={
-    todos:[{id:1,title:"goto movie"}],
-    nextId:2,
+    todos:[],
+    nextId:1,
 }
 
 const todoReducer=(state=initialState,action)=>{
